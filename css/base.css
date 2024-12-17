@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@100..900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Noto Sans KR';
+}
+
+html {
+  background: var(--bg-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  
+  height: 40px;
+  padding: 8px;
+  color: white;
+  background: var(--bg-color);
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.25)
+}
+#logo-top {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;  
+}
+#logo-top img {
+  height: 36px;
+  cursor: pointer;
+}
+
+main {
+  padding: 5rem 1rem 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+}
+main .container {
+  width: 94%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.round-box {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: white;
+  width: 100%;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.25);
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+.date-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.day {
+  margin: 2px;
+  text-align: center;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.date-btn {
+  margin: 2px;
+  text-align: center;
+  width: 100%;
+  height: 40px;
+  border: 1px solid black;
+}
+
+.date-none {
+  margin: 2px;
+  text-align: center;
+  width: 100%;
+  height: 40px;
+  border: 1px solid black;
+}
+
+
+/*==================
+    프로필버튼
+==================*/
+#profil {
+  height: 28px;
+  filter: invert(40%) sepia(39%) saturate(813%) hue-rotate(96deg) brightness(97%) contrast(91%);
+  cursor: pointer;
+}
+
+/*==================
+    햄버거버튼
+==================*/
+input[id='menuicon'] {
+  display: none;
+}
+input[id='menuicon'] + label {
+  display: block;
+  width: 36px;
+  height: 24px;
+  position:relative;
+  cursor: pointer;
+}
+input[id='menuicon']:checked + label {
+  z-index: 3;
+}
+input[id='menuicon'] + label span {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  border-radius: 16px;
+  background-color: #444;
+  transition: all .1s;
+}
+input[id='menuicon'] + label span:nth-child(1) {
+  top: 0;
+}
+input[id='menuicon'] + label span:nth-child(2) {
+  top: 50%;
+  transform: translateY(-50%);
+}
+input[id='menuicon'] + label span:nth-child(3) {
+  bottom: 0;
+}
+/*checked*/
+/* input[id='menuicon']:checked + label span:nth-child(1) {
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
+}
+input[id='menuicon']:checked + label span:nth-child(2) {
+  opacity: 0;
+  transform: rotate(45deg);
+}
+input[id='menuicon']:checked + label span:nth-child(3) {
+  bottom: 50%;
+  transform: translateY(50%) rotate(-45deg);
+} */
+input[id="menuicon"]:checked + label span:nth-child(1) {
+  top:26%;
+  left:0;
+  width:50%;
+  transform:translateY(-50%) rotate(-45deg);
+}
+input[id="menuicon"]:checked + label span:nth-child(2) {
+  width:90%;
+  right: 0;
+}
+input[id="menuicon"]:checked + label span:nth-child(3) {
+  bottom:26%;
+  left:0;
+  width:50%;
+  transform:translateY(50%) rotate(45deg);
+}
+
+/*============================
+사이드메뉴
+============================*/
+.sidebar {
+  width: 300px;
+  height: 100%;
+  background: var(--bg-color);
+  position: fixed;
+  top: 0;
+  left: -300px;
+  z-index: 2;
+  transition: all .2s;
+  
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.sidebar-profil {
+  margin-top: 56px;
+  margin-bottom: 16px;
+  padding-left: 20px;
+  
+}
+.sidebar-profil a {
+  color: black;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+.sidebar-profil img {
+  width: 64px;
+  height: 64px;
+  margin-right: 16px;
+  border-radius: 64px;
+}
+.sidebar-buttons {
+  width: 100%;
+  box-sizing: border-box;
+  height: 56px;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+
+  font-size: 20px;
+  color: black;
+}
+.sidebar-logout {
+  color: #e01a1a;
+}
+
+input[id='menuicon']:checked + label + div {
+  left: 0;
+}
+.blind {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+input[id='menuicon']:checked + label + div + label div {
+  display: block;
+}
+
+
+

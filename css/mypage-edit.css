@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background: var(--bg-color);
+}
+
+#logo-top {
+    height: 40px;
+}
+
+main {
+    margin-top: 100px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.round-box {
+    padding: 16px;
+}
+#join {
+    margin-top: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Roboto-ExtraBold", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    background: var(--main-color);
+    color: #ffffff;
+    border: none;
+}
+
+#cancel {
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Roboto-ExtraBold", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    background: #ababab;
+    color: #ffffff;
+    border: none;
+}
+
+.input-box {
+    box-sizing: border-box;
+    background: #ffffff;
+    border: 1px solid #ababab;
+    border-width: 1px;
+    padding: 10px;
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    color: #231f20;
+    box-shadow: inset 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+    margin-bottom: 20px;
+    border-radius: 0.5rem;
+}
+
+
+.double-holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.input-small {
+    box-sizing: border-box;
+    background: #ffffff;
+    border: 1px solid #ababab;
+    border-width: 1px;
+    padding: 10px;
+    width: 65%;
+    height: 40px;
+    font-size: 16px;
+    color: #231f20;
+    box-shadow: inset 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 0.5rem;
+}
+
+.duplicate-check {
+    width: 30%;
+    height: 40px;
+    font-size: 16px;
+    color: #231f20;
+    border-radius: 0.5rem;
+    
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Roboto-ExtraBold", sans-serif;
+    font-weight: 800;
+    background: var(--sub-color2);
+
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.25)
+}
+
+#gender {
+    box-sizing: border-box;
+    background: #ffffff;
+    border: 1px solid #ababab;
+    border-width: 1px;
+    width: 30%;
+    height: 40px;
+    font-size: 16px;
+    color: #231f20;
+    padding: 10px;
+    border-radius: 0.5rem;
+}

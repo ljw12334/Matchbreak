@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background: #EBF2EC;
+}
+
+#logo {
+    width: 200px;
+}
+
+main {
+    margin-top: 100px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20rem;
+    margin:100px;
+}
+
+#id, #pw {
+    box-sizing: border-box;
+    background: #ffffff;
+    border: 1px solid #ababab;
+    border-width: 1px;
+    padding: 10px;
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    color: #231f20;
+    box-shadow: inset 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+#id {
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+#pw {
+    border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.login-check {
+    margin-top: 10px;
+    width: 100%;
+}
+.login-check input {
+    border-radius: 100%;
+}
+
+.find {
+    margin-top: 10px;
+}
+.find a {
+    text-decoration-line: none;
+    color: #231f20;
+}
+
+.round-box {
+    padding: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.25)
+}
+
+#login, #join {
+    margin-top: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Roboto-ExtraBold", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+}
+#login {
+    background: rgba(25, 139, 80, 0.8);
+    color: #ffffff;
+}
+#join {
+    background: var(--lightmain, #a7f18d);
+    
+}
+#join a {
+    color: var(--maincolor, #198b50);
+    text-decoration-line: none;
+}

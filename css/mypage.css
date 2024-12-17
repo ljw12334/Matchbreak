@@ -1,0 +1,208 @@
+.mypage-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mypage-inner span {
+    margin-right: 20px;
+    flex-grow: 1;
+    font-weight: bold;
+    /* text-align: right; */
+    text-align: center;
+}
+.badge-box {
+    margin-top: 5px;
+    padding: 0.5rem;
+    border-radius:0.5rem 0.5rem 0.5rem 0.5rem;
+    background: white;
+    width: 100%;
+    height: 157px;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.25);
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+}
+.badge-box2 {
+    margin-top: 1px;
+    padding: 0.5rem;
+    border-radius:0rem 0rem 0.5rem 0.5rem;
+    background: white;
+    width: 100%;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.25);
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+}
+.badge-texts {
+    margin-top  : 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-weight: bold;
+    font-size: 22px;
+}
+.bage-container{
+    display: inline-flex;
+}
+.bage-item{
+    width: 100%;
+    display: flex;
+    font-weight: bold;
+    font-size: 12px;
+    height: 20px;
+    margin: 3px;
+    text-align: left;
+    color: white;
+}
+.bage-item span:nth-child(2) {
+    margin-left: 50px;
+}
+.bage-item span:nth-child(3) {
+    margin-left: 36%;
+}
+.bage-item2{
+    width: 100%;
+    display: flex;
+    font-weight: bold;
+    font-size: 15px;
+    height: 20px;
+    margin: 5px;
+    text-align: left;
+}
+.bage-item2 span:nth-child(2) {
+    margin-left: 65px;
+}
+.bage-item2 span:nth-child(3) {
+    margin-left: 20%;
+}
+
+.compliment-box {
+    margin-top: 5px;
+    padding: 0.5rem;
+    border-radius:0.5rem 0.5rem 0.5rem 0.5rem;
+    background: white;
+    width: 100%;
+    height: 157px;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.25);
+    margin-bottom: 16px;
+}
+.compliment-texts {
+    margin-top  : 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-weight: bold;
+    font-size:22px;
+}
+.profile-box {
+    padding: 0 0 0 0.5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: -10px 0 10px 0;
+  }
+.tier-box {
+    padding: 0.5rem;
+    border-radius: 0.5rem 0.5rem 0 0;
+    background: var(--main-color);
+    width: 100%;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+  }
+  .tier-box2 {
+    margin-top: 10px;
+    padding: 0.5rem;
+    border-radius: 0.5rem 0.5rem 0 0;
+    background: var(--main-color);
+    width: 100%;
+    height: 23px;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.25);
+  }
+  .information-box {
+    padding: 0.5rem;
+    border-radius:0 0 0.5rem 0.5rem;
+    background: white;
+    width: 100%;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.25);
+    margin-bottom: 16px;
+  }
+  .information-container {
+    grid-template-columns: 78.5px 78.5px;
+    grid-template-rows: 106px 106px 106px;
+    display : flex;
+    justify-content: space-between;
+    padding: 0 16px 0 16px;
+}
+  .information-item{
+    font-weight: bold;
+    font-size: 12px;
+    width: 45%;
+    height: 45px;
+    margin-bottom: 16px;
+    text-align: left;
+    
+}
+
+.information-item span {
+    font-size: 14px;
+    color: #555;
+}
+
+.information-style{
+    width: 90%;
+    background-color: white; 
+    margin-top: 2px;
+    font-size: 16px;
+}
+.mypage-texts {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.mypage-texts2 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:aliceblue;
+    text-align: center;
+}
+.mypage-texts span {
+    text-align: center;
+    font-size: 15px;
+}
+
+.mypage-texts span:nth-child(1) {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.profile {
+    border-radius: 100%;
+}
+
+.button-wrapper {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.edit-button {
+    width: 60px;
+    background-color: var(--main-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px;
+    margin-right: 10px;
+}
+.mid-box {
+    width: 100%;
+    text-align: center;
+}

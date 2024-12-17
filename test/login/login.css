@@ -1,0 +1,149 @@
+a,
+        button,
+        input,
+        select,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            border: none;
+            text-decoration: none;
+            background: none;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        menu,
+        ol,
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .wrapper {
+            place-items: center;
+        }
+
+        .div,
+        .div * {
+            box-sizing: border-box;
+        }
+
+        .div {
+            background: var(--bgcolor, #ebf2ec);
+            height: 800px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .input-id,
+        .input-password {
+            background: #ffffff;
+            border: 1px solid #ababab;
+            border-style: solid;
+            border-width: 1px;
+            padding: 10px;
+            width: 320px;
+            height: 40px;
+            font-size: 16px;
+            color: #231f20;
+            position: absolute;
+            left: 20px;
+            box-shadow: inset 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+        }
+
+        .input-id {
+            top: 248px;
+            border-radius: 10px 10px 0px 0px;
+        }
+
+        .input-password {
+            top: 288px;
+            border-radius: 0px 0px 10px 10px;
+        }
+
+        .div4 {
+            color: #231f20;
+            text-align: left;
+            font-family: "Roboto-Regular", sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            position: absolute;
+            left: 50px;
+            top: 338px;
+            width: 140px;
+            height: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+        }
+
+        .div5 {
+            color: #231f20;
+            text-align: center;
+            font-family: "Roboto-Regular", sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            position: absolute;
+            left: 20px;
+            top: 378px;
+            width: 320px;
+            height: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .ellipse-1 {
+            background: #d9d9d9;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            left: 20px;
+            top: 338px;
+        }
+
+        .rectangle-8,
+        .rectangle-9 {
+            border-radius: 10px;
+            width: 320px;
+            height: 50px;
+            position: absolute;
+            left: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-family: "Roboto-ExtraBold", sans-serif;
+            font-size: 18px;
+            font-weight: 800;
+        }
+
+        .rectangle-8 {
+            background: rgba(25, 139, 80, 0.8);
+            top: 418px;
+            color: #ffffff;
+            box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+        }
+
+        .rectangle-9 {
+            background: var(--lightmain, #a7f18d);
+            top: 488px;
+            color: var(--maincolor, #198b50);
+            box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+        }
+
+        .image-34 {
+            width: 200px; /* 로고 이미지 너비 */
+            height: auto; /* 자동으로 높이 조절 */
+            position: absolute;
+            left: 80px; /* 왼쪽으로 위치 조정 */
+            top: 100px; /* 원하는 높이로 조정 */
+            object-fit: cover;
+        }

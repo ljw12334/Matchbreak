@@ -1,0 +1,10 @@
+:root {
+    --main-color: #198B50;
+    --sub-color: #C1DECC;
+    --sub-color2: #A7F18D;
+    --bg-color: #EBF2EC;
+}
+
+#logo-top {
+    filter: invert(40%) sepia(39%) saturate(813%) hue-rotate(96deg) brightness(97%) contrast(91%);
+}
